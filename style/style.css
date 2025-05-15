@@ -1,3 +1,14 @@
+#hideAll {
+  position: fixed;
+  left: 0px;
+  right: 0px;
+  top: 0px;
+  bottom: 0px;
+  background-color: white;
+  z-index: 99;
+  /* Higher than anything else in the document */
+}
+
 .slider {
   background-image: url("/images/header-1.jpg");
   background-color: #28597C;
@@ -8,9 +19,6 @@
 }
 
 @-webkit-keyframes slide {
-  0% {
-    background-image: url("/images/header-1.jpg");
-  }
   25% {
     background-image: url("/images/header-2.jpg");
   }
@@ -26,9 +34,6 @@
 }
 
 @keyframes slide {
-  0% {
-    background-image: url("/images/header-1.jpg");
-  }
   25% {
     background-image: url("/images/header-2.jpg");
   }
@@ -207,7 +212,7 @@ header .main-nav .main-btn a:hover {
 }
 
 header .showcase-content {
-  padding: 150px 0;
+  padding: 100px 0 150px 0;
   margin: 0;
 }
 
