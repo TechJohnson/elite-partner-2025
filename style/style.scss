@@ -8,6 +8,84 @@ $white: #ffffff;
 $font-header: "Abril Fatface", serif;
 $font-body: "Lato", sans-serif;
 
+
+.slider {
+    background-image: url('/images/header-1.jpg');
+    background-color: $blue;
+    background-size: cover;
+    background-position: top left;
+    animation: slide 20s 5s infinite linear(0 0%, 1.33 15.13%);
+}
+
+@keyframes slide {
+    0%{background-image: url('/images/header-1.jpg');}
+    25%{background-image: url('/images/header-2.jpg');}
+    50%{background-image: url('/images/header-3.jpg');}
+    75%{background-image: url('/images/header-4.jpg');}
+    100%{background-image: url('/images/header-5.jpg');}
+}
+
+
+// Primary Navigation
+.primary-nav {
+    color: $white;
+    font-size: 18px;
+    padding: 20px 0;
+    ul {
+        text-decoration: none;
+        list-style: none;
+        font-size: 18px;
+    }
+    li {
+        padding: 20px;
+        margin: 0;
+        font-size: 18px;
+        a {
+            color: $white;
+            text-decoration: none;
+        }
+    }
+    .list-menu {
+        display: flex;
+        font-size: 18px;
+        padding: 0;
+        margin: 0;
+    }
+    .dropdown {
+        position: relative;
+    }
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        padding: 0;
+        border-radius: 6px;
+        margin: 20px 0 0 0;
+        flex-direction: column;
+        background: $white;
+        color: $black;
+        box-shadow: 0 15px 25px rgba($color: #000000, $alpha: .25);
+        a {
+            color: $black;
+            text-decoration: none;
+            padding: 10px;
+            margin: 0;
+            &:hover {
+                background: #F4F2F0;
+                border-radius: 6px;
+            }
+        }
+    }
+    .dropdown:hover .dropdown-content {
+        display: flex;
+        flex-direction: column;
+    }
+    .active {
+        border-bottom: 2px solid $white;
+        padding-bottom: 5px;
+    }
+}
+
+
 body {
     font-family: $font-body;
     font-size: 1rem;
@@ -107,81 +185,5 @@ header {
                 color: $white;
             }
         }
-    }
-}
-
-.slider {
-    background-image: url('/images/header-1.jpg');
-    background-color: $blue;
-    background-size: cover;
-    background-position: top left;
-    animation: slide 20s 5s infinite linear(0 0%, 1.33 15.13%);
-}
-
-@keyframes slide {
-    0%{background-image: url('/images/header-1.jpg');}
-    25%{background-image: url('/images/header-2.jpg');}
-    50%{background-image: url('/images/header-3.jpg');}
-    75%{background-image: url('/images/header-4.jpg');}
-    100%{background-image: url('/images/header-5.jpg');}
-}
-
-
-// Primary Navigation
-.primary-nav {
-    color: $white;
-    font-size: 18px;
-    padding: 20px 0;
-    ul {
-        text-decoration: none;
-        list-style: none;
-        font-size: 18px;
-    }
-    li {
-        padding: 20px;
-        margin: 0;
-        font-size: 18px;
-        a {
-            color: $white;
-            text-decoration: none;
-        }
-    }
-    .list-menu {
-        display: flex;
-        font-size: 18px;
-        padding: 0;
-        margin: 0;
-    }
-    .dropdown {
-        position: relative;
-    }
-    .dropdown-content {
-        display: none;
-        position: absolute;
-        padding: 0;
-        border-radius: 6px;
-        margin: 20px 0 0 0;
-        flex-direction: column;
-        background: $white;
-        color: $black;
-        box-shadow: 0 15px 25px rgba($color: #000000, $alpha: .25);
-        a {
-            color: $black;
-            text-decoration: none;
-            padding: 10px;
-            margin: 0;
-            &:hover {
-                background: #F4F2F0;
-                border-radius: 6px;
-            }
-        }
-    }
-    .dropdown:hover .dropdown-content {
-        display: flex;
-        flex-direction: column;
-    }
-    .active {
-        border-bottom: 2px solid $white;
-        padding-bottom: 5px;
     }
 }
