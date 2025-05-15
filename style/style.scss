@@ -217,7 +217,7 @@ header {
         display: flex;
         justify-content: space-between;
         align-items: center;
-        padding: 0;
+        padding: 0 0 50px 0;
         margin: 0;
         img {
             padding-right: 20px;
@@ -239,6 +239,22 @@ header {
                     margin: 0;
                 }
             }
+        }
+    }
+    .hotel {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 50px 0 0 0;
+        margin: 0;
+        img {
+            padding-left: 40px;
+        }
+        .hotel-box1 {
+            background: $white;
+            border: 5px solid $blue;
+            padding: 30px;
+            margin: 0 0 25px 0;
         }
     }
 }
