@@ -3,23 +3,7 @@
   background-color: #28597C;
   background-size: cover;
   background-position: top left;
-  -webkit-animation: slide 20s 5s infinite linear(0 0%, 1.33 15.13%);
-          animation: slide 20s 5s infinite linear(0 0%, 1.33 15.13%);
-}
-
-@-webkit-keyframes slide {
-  25% {
-    background-image: url("/images/header-2.jpg");
-  }
-  50% {
-    background-image: url("/images/header-4.jpg");
-  }
-  75% {
-    background-image: url("/images/header-5.jpg");
-  }
-  100% {
-    background-image: url("/images/header-1.jpg");
-  }
+  animation: slide 20s 5s infinite linear(0 0%, 1.33 15.13%);
 }
 
 @keyframes slide {
@@ -36,81 +20,59 @@
     background-image: url("/images/header-1.jpg");
   }
 }
-
 .primary-nav {
   color: #ffffff;
   font-size: 18px;
   padding: 20px 0;
 }
-
 .primary-nav ul {
   text-decoration: none;
   list-style: none;
   font-size: 18px;
 }
-
 .primary-nav li {
   padding: 20px;
   margin: 0;
   font-size: 18px;
 }
-
 .primary-nav li a {
   color: #ffffff;
   text-decoration: none;
 }
-
 .primary-nav .list-menu {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   font-size: 18px;
   padding: 0;
   margin: 0;
 }
-
 .primary-nav .dropdown {
   position: relative;
 }
-
 .primary-nav .dropdown-content {
   display: none;
   position: absolute;
   padding: 0;
   border-radius: 6px;
   margin: 20px 0 0 0;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   background: #ffffff;
   color: #000000;
-  -webkit-box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
-          box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 15px 25px rgba(0, 0, 0, 0.25);
 }
-
 .primary-nav .dropdown-content a {
   color: #000000;
   text-decoration: none;
   padding: 10px;
   margin: 0;
 }
-
 .primary-nav .dropdown-content a:hover {
   background: #F4F2F0;
   border-radius: 6px;
 }
-
 .primary-nav .dropdown:hover .dropdown-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
 }
-
 .primary-nav .active {
   border-bottom: 2px solid #ffffff;
   padding-bottom: 5px;
@@ -123,88 +85,63 @@ body {
   padding: 0;
   margin: 0;
 }
-
 body h1 {
   font-family: "Abril Fatface", serif;
   color: #28597C;
 }
-
 body h2 {
   font-family: "Abril Fatface", serif;
   color: #28597C;
 }
-
 body h3 {
   font-family: "Abril Fatface", serif;
   color: #28597C;
 }
 
 .container {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-orient: vertical;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: column;
-          flex-direction: column;
+  flex-direction: column;
   width: 1400px;
   margin: 0 auto;
   padding: 0 20px;
 }
 
 header {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
 }
-
 header .main-nav {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
+  align-items: center;
+  justify-content: space-between;
   width: 100%;
   padding: 25px 0;
   margin: 0;
 }
-
 header .main-nav .main-logo {
   width: 200px;
 }
-
 header .main-nav .main-logo img {
   width: 100%;
 }
-
 header .main-nav .main-btn {
   padding: 0;
   margin: 0;
 }
-
 header .main-nav .main-btn a {
   background: #2A936E;
   padding: 20px 25px;
   color: #ffffff;
   text-decoration: none;
   border-radius: 6px;
-  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
-
 header .main-nav .main-btn a:hover {
   background: #195841;
 }
-
 header .showcase-content {
   padding: 100px 0 150px 0;
   margin: 0;
 }
-
 header .showcase-content h1 {
   font-size: 100px;
   color: #ffffff;
@@ -212,37 +149,30 @@ header .showcase-content h1 {
   padding: 0 0 20px 0;
   margin: 0;
 }
-
 header .showcase-content p {
   color: #ffffff;
   font-size: 34px;
   padding: 20px 0;
   margin: 0;
 }
-
 header .showcase-content .padding-bottom {
   padding-bottom: 70px;
 }
-
 header .showcase-content a {
   background: #2A936E;
   color: #ffffff;
   text-decoration: none;
   border-radius: 6px;
-  -webkit-box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
-          box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
+  box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
   margin: 0;
   padding: 20px 100px;
 }
-
 header .showcase-content a:hover {
   background: #195841;
 }
-
 header .showcase-content .showcase-border {
   border-left: 5px solid #ffffff;
 }
-
 header .showcase-content .showcase-border ul {
   padding: 0 0 0 50px;
   margin: 0;
@@ -251,8 +181,6 @@ header .showcase-content .showcase-border ul {
 }
 
 .main-content {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
   background: url("/images/main-bg.jpg");
   background-size: cover;
@@ -261,86 +189,86 @@ header .showcase-content .showcase-border ul {
   padding: 100px 0;
   margin: 0;
 }
-
 .main-content .congratulations {
   max-width: 700px;
   padding-bottom: 100px;
   margin: 0 auto;
 }
-
 .main-content .congratulations h2 {
   font-size: 56px;
   text-align: center;
   padding-bottom: 30px;
   margin: 0;
 }
-
 .main-content .congratulations h4 {
   font-size: 30px;
   font-weight: 400;
   text-align: center;
   color: #000000;
 }
-
 .main-content .trip-inclusions {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 0 0 50px 0;
   margin: 0;
 }
-
 .main-content .trip-inclusions img {
   padding-right: 20px;
 }
-
 .main-content .trip-inclusions .trip-content {
   width: 48%;
 }
-
 .main-content .trip-inclusions .trip-content h3 {
   font-size: 28px;
   padding-left: 20px;
   margin: 0;
   border-left: 5px solid #2A936E;
 }
-
 .main-content .trip-inclusions .trip-content ul {
   font-size: 20px;
   padding: 30px 0 0 55px;
   margin: 0;
 }
-
 .main-content .trip-inclusions .trip-content ul li {
   padding: 5px 0;
   margin: 0;
 }
-
 .main-content .hotel {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-pack: justify;
-      -ms-flex-pack: justify;
-          justify-content: space-between;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
+  justify-content: space-between;
+  align-items: center;
   padding: 50px 0 0 0;
   margin: 0;
 }
-
 .main-content .hotel img {
   padding-left: 40px;
 }
-
 .main-content .hotel .hotel-box1 {
+  background: #ffffff;
+  border: 5px solid #28597C;
+  padding: 30px;
+  margin: 0 0 25px 0;
+}
+.main-content .hotel .hotel-box1 .title {
+  font-family: "Abril Fatface", serif;
+  color: #28597C;
+  font-size: 24px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+.main-content .hotel .hotel-box1 .box-content {
+  font-size: 20px;
+  padding: 0;
+  margin: 0;
+}
+.main-content .hotel .hotel-box1 span {
+  color: #2A936E;
+}
+.main-content .hotel .hotel-box1 span a {
+  color: #2A936E;
+}
+.main-content .hotel .hotel-box2 {
   background: #ffffff;
   border: 5px solid #28597C;
   padding: 30px;
@@ -358,15 +286,9 @@ header .showcase-content .showcase-border ul {
 }
 
 #countdown ul {
-  display: -webkit-box;
-  display: -ms-flexbox;
   display: flex;
-  -webkit-box-align: center;
-      -ms-flex-align: center;
-          align-items: center;
-  -webkit-box-pack: center;
-      -ms-flex-pack: center;
-          justify-content: center;
+  align-items: center;
+  justify-content: center;
   padding: 0 0 70px 0;
   margin: 0;
 }
@@ -402,6 +324,5 @@ header .showcase-content .showcase-border ul {
 
 .emoji span {
   font-size: 4rem;
-  padding: 0 .5rem;
-}
-/*# sourceMappingURL=style.css.map */
+  padding: 0 0.5rem;
+}/*# sourceMappingURL=style.css.map */
