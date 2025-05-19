@@ -371,4 +371,22 @@ footer .footer-content .copyright {
   padding: 40px 0 0 0;
   margin: 0;
   text-align: center;
+}
+
+.faq-section {
+  padding: 100px 0;
+  margin: 0;
+}
+.faq-section .faq-content {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+.faq-section .faq-content .faq-contact-box {
+  padding: 20px;
+  margin: 0;
+  background: #2A936E;
+  color: #ffffff;
+  border-radius: 6px;
+  width: 25%;
 }/*# sourceMappingURL=style.css.map */

@@ -381,3 +381,21 @@ footer {
         }
     }
 }
+
+.faq-section {
+    padding: 100px 0;
+    margin: 0;
+    .faq-content {
+        display: flex;
+        padding: 0;
+        margin: 0;
+        .faq-contact-box {
+            padding: 20px;
+            margin: 0;
+            background: $green;
+            color: $white;
+            border-radius: 6px;
+            width: 25%;
+        }
+    }
+}
