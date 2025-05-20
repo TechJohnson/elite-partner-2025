@@ -317,6 +317,35 @@ header .showcase-content .showcase-border ul {
   color: #2A936E;
 }
 
+.emoji ul {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0 0 70px 0;
+  margin: 0;
+}
+.emoji ul li {
+  display: inline-block;
+  font-family: "Lato", sans-serif;
+  text-align: center;
+  font-size: 30px;
+  list-style-type: none;
+  padding: 0 30px;
+  margin: 0;
+}
+.emoji ul li span {
+  display: block;
+  font-size: 100px;
+  font-family: "Abril Fatface", serif;
+  color: #2A936E;
+}
+.emoji ul .divider {
+  display: block;
+  font-size: 100px;
+  font-family: "Abril Fatface", serif;
+  color: #2A936E;
+}
+
 .emoji {
   display: none;
   padding: 1rem;
@@ -379,6 +408,7 @@ footer .footer-content .copyright {
 }
 .faq-section .faq-content {
   display: flex;
+  justify-content: space-between;
   padding: 0;
   margin: 0;
 }
@@ -389,4 +419,69 @@ footer .footer-content .copyright {
   color: #ffffff;
   border-radius: 6px;
   width: 25%;
+  height: 100%;
+}
+.faq-section .faq-content .faq-contact-box p {
+  font-size: 24px;
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+.faq-section .faq-content .faq-contact-box .contact {
+  display: flex;
+  align-items: center;
+  padding: 5px 0;
+  margin: 0;
+}
+.faq-section .faq-content .faq-contact-box .contact p {
+  font-size: 18px;
+  padding: 0;
+  margin: 0;
+}
+.faq-section .faq-content .faq-contact-box .contact img {
+  padding-right: 10px;
+}
+
+.questions {
+  width: 70%;
+}
+
+.faq-question {
+  background-color: white;
+  color: black;
+  border-radius: 20px;
+  box-shadow: 0 5px 10px 0 rgba(0, 0, 0, 0.1);
+  margin: 20px 0;
+}
+
+.question {
+  font-size: 1.2rem;
+  font-weight: 600;
+  padding: 20px 80px 20px 20px;
+  position: relative;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.question::after {
+  content: "+";
+  font-size: 2.2rem;
+  position: absolute;
+  right: 20px;
+  transition: 0.2s;
+}
+
+.question.active::after {
+  transform: rotate(45deg);
+}
+
+.answercont {
+  max-height: 0;
+  overflow: hidden;
+  transition: 0.3s;
+}
+
+.answer {
+  padding: 0 20px 20px;
+  line-height: 1.5rem;
 }/*# sourceMappingURL=style.css.map */

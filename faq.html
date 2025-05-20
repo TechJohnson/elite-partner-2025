@@ -56,7 +56,68 @@
         <div class="container">
             <div class="faq-content">
                 <div class="faq-contact-box">
-                    <p>Can't find your answer? We're here to help!</p>
+                    <p><b>Can't find your answer? We're here to help!</b></p>
+                    <div class="contact">
+                        <img src="/images/email.svg" alt="">
+                        <p>email@email.com</p>
+                    </div>
+                    <div class="contact">
+                        <img src="/images/phone.svg" alt="">
+                        <p>(123) 456-7890</p>
+                    </div>
+                </div>
+                <div class="questions">
+                    <div class="faq-question">
+                        <div class="question">
+                            <p>How do I register?</p>
+                        </div>
+                        <div class="answercont">
+                            <div class="answer"><p>If your account qualifies and is in good standing with Custom Brands Group, you will receive an email from Alta Elite Travel Headquarters with an invitation to register for the upcoming incentive trip. Please click the link within the email to register yourself and your guest (if applicable) by the designated deadline.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-question">
+                        <div class="question">
+                            <p>I am not able to attend the trip.  What should I do?</p>
+                        </div>
+                        <div class="answercont">
+                            <div class="answer"><p>To Decline your trip:</p>
+                                <ul>
+                                    <li>Open the invitation email from Alta Elite Travel Headquarters.</li>
+                                    <li>Click the “No, I Cannot Attend” Button.</li>
+                                    <li>Fill in the decline form with your First Name, Last Name, Email Address, and Account Number (if applicable).</li>
+                                    <li>When prompted “Do you wish to transfer your invitation?” select “No”.</li>
+                                    <li>Complete Reason for Decline box.</li>
+                                    <li>Click “Submit”.</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-question">
+                        <div class="question">
+                            <p>When should I register for activities?</p>
+                        </div>
+                        <div class="answercont">
+                            <div class="answer"><p>You may register for available activities during registration only. Once an activity is full or closed, you will no longer be able to choose that activity.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="faq-question">
+                        <div class="question">
+                            <p>What is the cost to register for activities?</p>
+                        </div>
+                        <div class="answercont">
+                            <div class="answer"><p>Activity costs will be published once registration opens, in early 2026.<br><br>
+                                Be sure to carefully review the trip Agenda to ensure there is no conflict with your registered activity.<br><br>
+                                Please note that charges will appear on your credit card statement under the following merchant information:<br><br>
+                                <strong>MADISON</strong><br>
+                                315 Madison Avenue Suite 4059<br>
+                                New York, NY 10017<br>
+                                212.339.5986
+                            </p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
@@ -73,5 +134,27 @@
         </div>
     </footer>
 
-    </body>
+</body>
+
+    <script>
+        let question = document.querySelectorAll(".question");
+
+question.forEach(question => {
+  question.addEventListener("click", event => {
+    const active = document.querySelector(".question.active");
+    if(active && active !== question ) {
+      active.classList.toggle("active");
+      active.nextElementSibling.style.maxHeight = 0;
+    }
+    question.classList.toggle("active");
+    const answer = question.nextElementSibling;
+    if(question.classList.contains("active")){
+      answer.style.maxHeight = answer.scrollHeight + "px";
+    } else {
+      answer.style.maxHeight = 0;
+    }
+  })
+})
+
+    </script>
 </html>

@@ -100,7 +100,7 @@
     </section>
     <section class="countdown-timer">
         <div class="container">
-            <p id="headline">Countdown to the 2025 Elite Partner Program</p>
+            <p id="headline">Countdown to the Elite Partner Program</p>
             <div id="countdown">
                 <ul>
                     <li><span id="days"></span>Days</li>
@@ -113,9 +113,15 @@
                 </ul>
             </div>
             <div id="content" class="emoji">
-                <span>🥳</span>
-                <span>🎉</span>
-                <span>🎂</span>
+                <ul>
+                    <li><span>00</span>Days</li>
+                    <li class="divider">:</li>
+                    <li><span>00</span>Hours</li>
+                    <li class="divider">:</li>
+                    <li><span>00</span>Minutes</li>
+                    <li class="divider">:</li>
+                    <li><span>00</span>Seconds</li>
+                </ul>
             </div>
         </div>
     </section>
@@ -168,7 +174,7 @@
 
         //do something later when date is reached
         if (distance < 0) {
-          document.getElementById("headline").innerText = "It's my birthday!";
+          document.getElementById("headline").innerText = "Countdown to the Elite Partner Program";
           document.getElementById("countdown").style.display = "none";
           document.getElementById("content").style.display = "block";
           clearInterval(x);
