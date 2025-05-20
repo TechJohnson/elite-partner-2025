@@ -403,6 +403,7 @@ footer .footer-content .copyright {
 }
 
 .faq-section {
+  display: flex;
   padding: 100px 0;
   margin: 0;
 }
