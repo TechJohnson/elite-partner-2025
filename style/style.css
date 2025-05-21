@@ -489,4 +489,94 @@ footer .footer-content .copyright {
 .answer {
   padding: 0 20px 20px;
   line-height: 1.5rem;
+}
+
+.trip-extensions-header {
+  background-image: url("/images/trip-extensions-bg.jpg");
+  background-color: #28597C;
+  background-size: cover;
+  background-position: top left;
+}
+
+.faq-header {
+  background-image: url("/images/faq-bg.jpg");
+  background-color: #28597C;
+  background-size: cover;
+  background-position: top left;
+}
+
+.trip-extensions-content {
+  display: flex;
+  padding: 100px 0;
+  margin: 0;
+}
+.trip-extensions-content .hotel-extension {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trip-extensions-content .hotel-extension .left {
+  width: 47%;
+}
+.trip-extensions-content .hotel-extension .left img {
+  width: 100%;
+}
+.trip-extensions-content .hotel-extension .right {
+  width: 50%;
+}
+.trip-extensions-content .hotel-extension .right h2 {
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+.trip-extensions-content .hotel-extension .right p {
+  padding: 0;
+  margin: 0;
+}
+.trip-extensions-content .transportation {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.trip-extensions-content .transportation .left {
+  width: 50%;
+}
+.trip-extensions-content .transportation .right {
+  width: 47%;
+}
+.trip-extensions-content .transportation .right img {
+  width: 100%;
+}
+.trip-extensions-content .transportation .right h2 {
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+.trip-extensions-content .transportation .right p {
+  padding: 0;
+  margin: 0;
+}
+.trip-extensions-content .considerations {
+  background: #28597C;
+  border: 10px solid #2A936E;
+  color: #ffffff;
+  text-align: center;
+  padding: 20px;
+  margin: 50px 0;
+}
+.trip-extensions-content .considerations img {
+  width: 300px;
+  padding-bottom: 20px;
+  margin: 0;
+}
+.trip-extensions-content .considerations h2 {
+  color: #ffffff;
+  padding: 0 0 20px 0;
+  margin: 0;
+}
+.trip-extensions-content .considerations p {
+  padding: 0;
+  margin: 0;
+}
+.trip-extensions-content .considerations .madison {
+  padding: 0 0 10px 0;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */

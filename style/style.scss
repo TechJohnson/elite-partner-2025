@@ -499,3 +499,94 @@ footer {
   padding: 0 20px 20px;
   line-height: 1.5rem;
 }
+
+.trip-extensions-header {
+    background-image: url('/images/trip-extensions-bg.jpg');
+    background-color: $blue;
+    background-size: cover;
+    background-position: top left;
+}
+
+.faq-header {
+    background-image: url('/images/faq-bg.jpg');
+    background-color: $blue;
+    background-size: cover;
+    background-position: top left;
+}
+
+
+.trip-extensions-content {
+    display: flex;
+    padding: 100px 0;
+    margin: 0;
+    .hotel-extension {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .left {
+            width: 47%;
+            img {
+                width: 100%;
+            }
+        }
+        .right {
+            width: 50%;
+            h2 {
+                padding: 0 0 20px 0;
+                margin: 0;
+            }
+            p {
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+    .transportation {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .left {
+            width: 50%;
+        }
+        .right {
+            width: 47%;
+            img {
+                width: 100%;
+            }
+            h2 {
+                padding: 0 0 20px 0;
+                margin: 0;
+            }
+            p {
+                padding: 0;
+                margin: 0;
+            }
+        }
+    }
+    .considerations {
+        background: $blue;
+        border: 10px solid $green;
+        color: $white;
+        text-align: center;
+        padding: 20px;
+        margin: 50px 0;
+        img {
+            width: 300px;
+            padding-bottom: 20px;
+            margin: 0;
+        }
+        h2 {
+            color: $white;
+            padding: 0 0 20px 0;
+            margin: 0;
+        }
+        p {
+            padding: 0;
+            margin: 0;
+        }
+        .madison {
+            padding: 0 0 10px 0;
+            margin: 0;
+        }
+    }
+}
