@@ -532,10 +532,12 @@ footer {
         .right {
             width: 50%;
             h2 {
+                font-size: 36px;
                 padding: 0 0 20px 0;
                 margin: 0;
             }
             p {
+                font-size: 20px;
                 padding: 0;
                 margin: 0;
             }
@@ -547,19 +549,21 @@ footer {
         align-items: center;
         .left {
             width: 50%;
+            h2 {
+                font-size: 36px;
+                padding: 0 0 20px 0;
+                margin: 0;
+            }
+            p {
+                font-size: 20px;
+                padding: 0 0 20px 0;
+                margin: 0;
+            }
         }
         .right {
             width: 47%;
             img {
                 width: 100%;
-            }
-            h2 {
-                padding: 0 0 20px 0;
-                margin: 0;
-            }
-            p {
-                padding: 0;
-                margin: 0;
             }
         }
     }
@@ -576,11 +580,13 @@ footer {
             margin: 0;
         }
         h2 {
+            font-size: 36px;
             color: $white;
             padding: 0 0 20px 0;
             margin: 0;
         }
         p {
+            font-size: 20px;
             padding: 0;
             margin: 0;
         }
