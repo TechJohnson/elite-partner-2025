@@ -506,6 +506,13 @@ footer .footer-content .copyright {
   background-position: top left;
 }
 
+.destination-header {
+  background-image: url("/images/destination-bg.jpg");
+  background-color: #28597C;
+  background-size: cover;
+  background-position: top left;
+}
+
 .faq-header {
   background-image: url("/images/faq-bg.jpg");
   background-color: #28597C;
