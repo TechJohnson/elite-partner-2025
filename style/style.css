@@ -499,6 +499,13 @@ footer .footer-content .copyright {
   background-position: top left;
 }
 
+.accommodations-header {
+  background-image: url("/images/accommodations-bg.jpg");
+  background-color: #28597C;
+  background-size: cover;
+  background-position: top left;
+}
+
 .faq-header {
   background-image: url("/images/faq-bg.jpg");
   background-color: #28597C;
@@ -586,4 +593,19 @@ footer .footer-content .copyright {
 .trip-extensions-content .considerations .madison {
   padding: 0 0 10px 0;
   margin: 0;
+}
+
+.accommodation-section {
+  display: flex;
+  padding: 100px 0;
+  margin: 0;
+}
+.accommodation-section .accommodation-content {
+  width: 100%;
+}
+.accommodation-section .accommodation-content img {
+  width: 100%;
+}
+.accommodation-section .accommodation-content .img1 {
+  padding-bottom: 100px;
 }/*# sourceMappingURL=style.css.map */
