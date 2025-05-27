@@ -951,3 +951,51 @@ footer {
     font-size: 14px;
     padding-top: 5px;
 }
+
+
+.activities-body {
+  display: flex;
+  padding: 100px 0;
+  margin: 0;
+  .activity-after-container {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    .activity {
+      max-width: 675px;
+      padding: 0;
+      margin: 0 0 50px 0;
+      .activity-img {
+        width: 100%;
+        padding: 0;
+        margin: 0;
+        img {
+          width: 100%;
+          padding: 0;
+          margin: 0;
+          border: 5px solid $green;
+        }
+      }
+      .activity-copy {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        width: 80%;
+        background: $white;
+        position: relative;
+        padding: 20;
+        margin: -50 auto 0 auto;
+        border: 5px solid $blue;
+        p {
+          padding: 0;
+          margin: 0;
+        }
+        .activity-title {
+          font-size: 24px;
+          font-weight: 700;
+          padding-bottom: 20px;
+        }
+      }
+    }
+  }
+}
