@@ -114,7 +114,8 @@ body h3 {
   top: -200px;
   width: 100%;
   display: block;
-  transition: top 0.3s;
+  z-index: 1;
+  transition: top ease-out 0.5s;
 }
 #navbar .main-logo {
   width: 200px;
