@@ -1,3 +1,54 @@
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: #28597C;
+  background-color: rgba(40, 89, 124, 0.9);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: #ffffff;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {
+    font-size: 20px;
+  }
+  .overlay .closebtn {
+    font-size: 40px;
+    top: 15px;
+    right: 35px;
+  }
+}
 .slider {
   background-image: url("/images/header-1.jpg");
   background-color: #28597C;
@@ -1131,7 +1182,210 @@ footer .footer-content .copyright {
   margin: 0;
 }
 
+@media (min-width: 722px) {
+  .mobile-open {
+    display: none;
+  }
+}
 @media (max-width: 722px) {
+  .slider {
+    display: flex;
+    flex-direction: column;
+  }
+  .slider .container {
+    width: 90%;
+  }
+  .slider .mobile-open {
+    display: flex;
+    justify-content: space-between;
+  }
+  .slider .mobile-open p {
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .slider .mobile-open img {
+    width: 150px;
+  }
+  .faq-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .faq-header .container {
+    width: 90%;
+  }
+  .faq-header .mobile-open {
+    display: flex;
+    justify-content: space-between;
+  }
+  .faq-header .mobile-open p {
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .faq-header .mobile-open img {
+    width: 150px;
+  }
+  .trip-extensions-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .trip-extensions-header .container {
+    width: 90%;
+  }
+  .trip-extensions-header .mobile-open {
+    display: flex;
+    justify-content: space-between;
+  }
+  .trip-extensions-header .mobile-open p {
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .trip-extensions-header .mobile-open img {
+    width: 150px;
+  }
+  .accommodations-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .accommodations-header .container {
+    width: 90%;
+  }
+  .accommodations-header .mobile-open {
+    display: flex;
+    justify-content: space-between;
+  }
+  .accommodations-header .mobile-open p {
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .accommodations-header .mobile-open img {
+    width: 150px;
+  }
+  .destination-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .destination-header .container {
+    width: 90%;
+  }
+  .destination-header .mobile-open {
+    display: flex;
+    justify-content: space-between;
+  }
+  .destination-header .mobile-open p {
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .destination-header .mobile-open img {
+    width: 150px;
+  }
+  .agenda-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .agenda-header .container {
+    width: 90%;
+  }
+  .agenda-header .mobile-open {
+    display: flex;
+    justify-content: space-between;
+  }
+  .agenda-header .mobile-open p {
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .agenda-header .mobile-open img {
+    width: 150px;
+  }
+  .destination-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .destination-header .container {
+    width: 90%;
+  }
+  .destination-header .mobile-open {
+    display: flex;
+    justify-content: space-between;
+  }
+  .destination-header .mobile-open p {
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .destination-header .mobile-open img {
+    width: 150px;
+  }
+  .dining-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .dining-header .container {
+    width: 90%;
+  }
+  .dining-header .mobile-open {
+    display: flex;
+    justify-content: space-between;
+  }
+  .dining-header .mobile-open p {
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .dining-header .mobile-open img {
+    width: 150px;
+  }
+  .travel-header {
+    display: flex;
+    flex-direction: column;
+  }
+  .travel-header .container {
+    width: 90%;
+  }
+  .travel-header .mobile-open {
+    display: flex;
+    justify-content: space-between;
+  }
+  .travel-header .mobile-open p {
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+    font-size: 50px;
+    cursor: pointer;
+  }
+  .travel-header .mobile-open img {
+    width: 150px;
+  }
+  header .showcase-content a {
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+    background: rgb(42, 147, 110);
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 0px;
+    padding: 20px;
+  }
   .main-nav {
     display: none !important;
   }

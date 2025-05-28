@@ -8,6 +8,55 @@ $white: #ffffff;
 $font-header: "Abril Fatface", serif;
 $font-body: "Lato", sans-serif;
 
+.overlay {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: $blue;
+  background-color: rgba($color: $blue, $alpha: 0.90);
+  overflow-x: hidden;
+  transition: 0.5s;
+}
+
+.overlay-content {
+  position: relative;
+  top: 10%;
+  width: 100%;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.overlay a {
+  padding: 8px;
+  text-decoration: none;
+  font-size: 36px;
+  color: $white;
+  display: block;
+  transition: 0.3s;
+}
+
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+.overlay .closebtn {
+  position: absolute;
+  top: 20px;
+  right: 45px;
+  font-size: 60px;
+}
+
+@media screen and (max-height: 450px) {
+  .overlay a {font-size: 20px}
+  .overlay .closebtn {
+  font-size: 40px;
+  top: 15px;
+  right: 35px;
+  }
+}
 
 .slider {
     background-image: url('/images/header-1.jpg');
@@ -1129,14 +1178,212 @@ footer {
 }
 
 
-
-
-
-
-
+@media (min-width: 722px) {
+  .mobile-open {
+    display: none;
+  }
+}
 
 
 @media (max-width: 722px) {
+  .slider {
+      display: flex;
+    flex-direction: column;
+    .container {
+      width: 90%;
+    }
+    .mobile-open {
+      display: flex;
+      justify-content: space-between;
+      p {
+        color: $white;
+        padding: 0;
+        margin: 0;
+        font-size: 50px;
+        cursor: pointer;
+      }
+      img {
+        width: 150px;
+      }
+    }
+  }
+    .faq-header {
+      display: flex;
+    flex-direction: column;
+    .container {
+      width: 90%;
+    }
+    .mobile-open {
+      display: flex;
+      justify-content: space-between;
+      p {
+        color: $white;
+        padding: 0;
+        margin: 0;
+        font-size: 50px;
+        cursor: pointer;
+      }
+            img {
+        width: 150px;
+      }
+    }
+  }
+    .trip-extensions-header {
+      display: flex;
+    flex-direction: column;
+    .container {
+      width: 90%;
+    }
+    .mobile-open {
+      display: flex;
+      justify-content: space-between;
+      p {
+        color: $white;
+        padding: 0;
+        margin: 0;
+        font-size: 50px;
+        cursor: pointer;
+      }
+            img {
+        width: 150px;
+      }
+    }
+  }
+      .accommodations-header {
+      display: flex;
+    flex-direction: column;
+    .container {
+      width: 90%;
+    }
+    .mobile-open {
+      display: flex;
+      justify-content: space-between;
+      p {
+        color: $white;
+        padding: 0;
+        margin: 0;
+        font-size: 50px;
+        cursor: pointer;
+      }
+            img {
+        width: 150px;
+      }
+    }
+  }
+        .destination-header {
+      display: flex;
+    flex-direction: column;
+    .container {
+      width: 90%;
+    }
+    .mobile-open {
+      display: flex;
+      justify-content: space-between;
+      p {
+        color: $white;
+        padding: 0;
+        margin: 0;
+        font-size: 50px;
+        cursor: pointer;
+      }
+            img {
+        width: 150px;
+      }
+    }
+  }
+          .agenda-header {
+      display: flex;
+    flex-direction: column;
+    .container {
+      width: 90%;
+    }
+    .mobile-open {
+      display: flex;
+      justify-content: space-between;
+      p {
+        color: $white;
+        padding: 0;
+        margin: 0;
+        font-size: 50px;
+        cursor: pointer;
+      }
+            img {
+        width: 150px;
+      }
+    }
+  }
+            .destination-header {
+      display: flex;
+    flex-direction: column;
+    .container {
+      width: 90%;
+    }
+    .mobile-open {
+      display: flex;
+      justify-content: space-between;
+      p {
+        color: $white;
+        padding: 0;
+        margin: 0;
+        font-size: 50px;
+        cursor: pointer;
+      }
+            img {
+        width: 150px;
+      }
+    }
+  }
+              .dining-header {
+      display: flex;
+    flex-direction: column;
+    .container {
+      width: 90%;
+    }
+    .mobile-open {
+      display: flex;
+      justify-content: space-between;
+      p {
+        color: $white;
+        padding: 0;
+        margin: 0;
+        font-size: 50px;
+        cursor: pointer;
+      }
+            img {
+        width: 150px;
+      }
+    }
+  }
+                .travel-header {
+      display: flex;
+    flex-direction: column;
+    .container {
+      width: 90%;
+    }
+    .mobile-open {
+      display: flex;
+      justify-content: space-between;
+      p {
+        color: $white;
+        padding: 0;
+        margin: 0;
+        font-size: 50px;
+        cursor: pointer;
+      }
+            img {
+        width: 150px;
+      }
+    }
+  }
+  header .showcase-content a {
+    color: rgb(255, 255, 255);
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 3px 6px;
+    background: rgb(42, 147, 110);
+    text-decoration: none;
+    border-radius: 6px;
+    margin: 0px;
+    padding: 20px;
+}
   .main-nav {
     display: none !important;
   }
@@ -1147,7 +1394,7 @@ footer {
     padding: 5px;
     border-radius: 5px;
   }
-  .tabs .slider2 {
+.tabs .slider2 {
     display: none;
   }
   .tabs .content {
