@@ -537,6 +537,13 @@ footer {
   line-height: 1.5rem;
 }
 
+.travel-header {
+    background-image: url('/images/travel-bg.jpg');
+    background-color: $blue;
+    background-size: cover;
+    background-position: top left;
+}
+
 .trip-extensions-header {
     background-image: url('/images/trip-extensions-bg.jpg');
     background-color: $blue;
