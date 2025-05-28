@@ -1025,3 +1025,63 @@ footer {
     }
   }
 }
+
+.pre-footer {
+  display: flex;
+  img {
+    width: 100%;
+  }
+}
+
+.travel-info {
+  display: flex;
+  padding: 100px 0;
+  margin: 0;
+  h2 {
+    text-align: center;
+  }
+  .travel-boxes {
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    .box2 {
+      width: 100%;
+      border: 5px solid $green;
+      padding: 20px;
+      margin: 10px;
+      .title {
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+        padding-bottom: 20px;
+      }
+      .content {
+        text-align: center;
+      }
+      p {
+        padding: 0;
+        margin: 0;
+      }
+    }
+    .box {
+      width: 45%;
+      border: 5px solid $green;
+      padding: 20px;
+      margin: 10px;
+      .title {
+        font-weight: 700;
+        font-size: 24px;
+        text-align: center;
+        padding-bottom: 20px;
+      }
+      .content {
+        text-align: center;
+      }
+      p {
+        padding: 0;
+        margin: 0;
+      }
+    }
+  }
+}

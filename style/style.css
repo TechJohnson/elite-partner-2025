@@ -1025,4 +1025,64 @@ footer .footer-content .copyright {
 }
 .activities-body .activity-after-container .activity .activity-copy .hours .color {
   background: #f4f4f4;
+}
+
+.pre-footer {
+  display: flex;
+}
+.pre-footer img {
+  width: 100%;
+}
+
+.travel-info {
+  display: flex;
+  padding: 100px 0;
+  margin: 0;
+}
+.travel-info h2 {
+  text-align: center;
+}
+.travel-info .travel-boxes {
+  display: flex;
+  justify-content: space-between;
+  padding: 0;
+  margin: 0;
+}
+.travel-info .travel-boxes .box2 {
+  width: 100%;
+  border: 5px solid #2A936E;
+  padding: 20px;
+  margin: 10px;
+}
+.travel-info .travel-boxes .box2 .title {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.travel-info .travel-boxes .box2 .content {
+  text-align: center;
+}
+.travel-info .travel-boxes .box2 p {
+  padding: 0;
+  margin: 0;
+}
+.travel-info .travel-boxes .box {
+  width: 45%;
+  border: 5px solid #2A936E;
+  padding: 20px;
+  margin: 10px;
+}
+.travel-info .travel-boxes .box .title {
+  font-weight: 700;
+  font-size: 24px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+.travel-info .travel-boxes .box .content {
+  text-align: center;
+}
+.travel-info .travel-boxes .box p {
+  padding: 0;
+  margin: 0;
 }/*# sourceMappingURL=style.css.map */
