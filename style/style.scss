@@ -256,8 +256,12 @@ header {
         align-items: center;
         padding: 0 0 50px 0;
         margin: 0;
-        img {
-            padding-right: 20px;
+        .trip-img {
+          width: 50%;
+          img {
+              padding-right: 20px;
+              width: 100%;
+          }
         }
         .trip-content {
             width: 48%;
@@ -284,8 +288,15 @@ header {
         align-items: center;
         padding: 50px 0 0 0;
         margin: 0;
-        img {
-            padding-left: 40px;
+        .hotel-img {
+          width: 50%;
+          img {
+              padding-left: 40px;
+              width: 100%;
+          }
+        }
+        .hotel-content {
+          width: 50%;
         }
         .hotel-box1 {
             background: $white;
@@ -321,6 +332,9 @@ header {
 }
 
 // Countdown Timer
+.countdown-timer {
+  display: flex;
+}
 #headline {
     font-family: $font-header;
     font-weight: 700;
@@ -947,22 +961,6 @@ footer {
     height: 5em;
   }
 }
-@media (max-width: 722px) {
-  .tabs ul li label {
-    padding: 5px;
-    border-radius: 5px;
-  }
-  .tabs .slider2 {
-    display: none;
-  }
-  .tabs .content {
-    margin-top: 20px;
-  }
-  .tabs .content section h2 {
-    display: block;
-  }
-}
-
 .agenda-main {
     display:flex;
     padding: 100px 0;
@@ -1128,3 +1126,148 @@ footer {
     }
   }
 }
+
+
+
+
+
+
+
+
+
+@media (max-width: 722px) {
+  .main-nav {
+    display: none !important;
+  }
+  #navbar {
+    display: none !important;
+  }
+  .tabs ul li label {
+    padding: 5px;
+    border-radius: 5px;
+  }
+  .tabs .slider2 {
+    display: none;
+  }
+  .tabs .content {
+    margin-top: 20px;
+  }
+  .tabs .content section h2 {
+    display: block;
+  }
+  .trip-inclusions {
+    flex-direction: column;
+    .trip-img {
+      width: 100%;
+    }
+    img {
+      padding-right: 0 !important;
+      padding-bottom: 25px;
+      width: 100%;
+    }
+
+  }
+  .hotel {
+    flex-direction: column-reverse;
+    img {
+      padding-bottom: 25px;
+      padding-left: 0 !important;
+      width:100%;
+    }
+  }
+  .main-content .trip-inclusions .trip-img {
+    width: 100%;
+  }
+  .main-content .trip-inclusions .trip-content {
+    width: 100%;
+}
+.main-content .hotel .hotel-img {
+    width: 100%;
+}
+.main-content .hotel .hotel-content {
+    width: 100%;
+}
+#countdown ul {
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+    padding: 0 0 70px 0;
+    margin: 0;
+    flex-direction: column;
+}
+#countdown .divider {
+    display: none;
+    font-size: 50px;
+    font-family: "Abril Fatface", serif;
+    color: #2A936E;
+}
+header .showcase-content h1 {
+    font-size: 40px;
+    color: #ffffff;
+    font-weight: 400;
+    padding: 0 0 20px 0;
+    margin: 0;
+}
+.main-content .congratulations h2 {
+    font-size: 46px;
+    text-align: center;
+    padding-bottom: 30px;
+    margin: 0;
+}
+.main-content .congratulations h4 {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+    color: #000000;
+}
+#headline {
+    font-family: "Abril Fatface", serif;
+    font-weight: 700;
+    font-size: 36px;
+    color: #28597C;
+    text-align: center;
+    margin: 0;
+    padding: 50px 0;
+}
+.travel-info .travel-boxes {
+  width: 83%;
+    display: flex;
+    justify-content: space-between;
+    padding: 0;
+    margin: 0;
+    flex-direction: column;
+}.travel-info .travel-boxes .box {
+    width: 100%;
+    border: 5px solid #2A936E;
+    padding: 20px;
+    margin: 10px;
+}
+.trip-extensions-content .hotel-extension {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+}
+.trip-extensions-content .transportation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column-reverse;
+}
+.trip-extensions-content .transportation .left {
+    width: 100%;
+    padding-top: 25px;
+}
+.trip-extensions-content .transportation .right {
+    width: 100%;
+}
+.trip-extensions-content .hotel-extension .left {
+    width: 100%;
+}
+.trip-extensions-content .hotel-extension .right {
+    width: 100%;
+    padding-top: 25px;
+}
+}
+
