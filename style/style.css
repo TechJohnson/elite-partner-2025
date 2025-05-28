@@ -513,6 +513,13 @@ footer .footer-content .copyright {
   background-position: top left;
 }
 
+.dining-header {
+  background-image: url("/images/dining-bg.jpg");
+  background-color: #28597C;
+  background-size: cover;
+  background-position: top left;
+}
+
 .faq-header {
   background-image: url("/images/faq-bg.jpg");
   background-color: #28597C;
@@ -999,4 +1006,23 @@ footer .footer-content .copyright {
   font-size: 24px;
   font-weight: 700;
   padding-bottom: 20px;
+}
+.activities-body .activity-after-container .activity .activity-copy .hours {
+  padding: 10px 0 0 0;
+  margin: 0;
+}
+.activities-body .activity-after-container .activity .activity-copy .hours .title {
+  font-weight: 700;
+  text-align: center;
+}
+.activities-body .activity-after-container .activity .activity-copy .hours .hours-split {
+  display: flex;
+  justify-content: space-between;
+  padding: 5px;
+}
+.activities-body .activity-after-container .activity .activity-copy .hours .hours-split .left {
+  font-weight: 700;
+}
+.activities-body .activity-after-container .activity .activity-copy .hours .color {
+  background: #f4f4f4;
 }/*# sourceMappingURL=style.css.map */

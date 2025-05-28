@@ -522,6 +522,13 @@ footer {
     background-position: top left;
 }
 
+.dining-header {
+    background-image: url('/images/dining-bg.jpg');
+    background-color: $blue;
+    background-size: cover;
+    background-position: top left;
+}
+
 .faq-header {
     background-image: url('/images/faq-bg.jpg');
     background-color: $blue;
@@ -994,6 +1001,25 @@ footer {
           font-size: 24px;
           font-weight: 700;
           padding-bottom: 20px;
+        }
+        .hours {
+          padding: 10px 0 0 0;
+          margin: 0;
+          .title {
+            font-weight: 700;
+            text-align: center;
+          }
+          .hours-split {
+            display: flex;
+            justify-content: space-between;
+            padding: 5px;
+            .left {
+              font-weight: 700;
+            }
+          }
+          .color {
+            background: #f4f4f4;
+          }
         }
       }
     }
