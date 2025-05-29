@@ -50,7 +50,7 @@
   }
 }
 .slider {
-  background-image: url("/images/header-1.jpg");
+  background-image: url("/images/header-1.webp");
   background-color: #28597C;
   background-size: cover;
   background-position: top left;
@@ -59,16 +59,16 @@
 
 @keyframes slide {
   25% {
-    background-image: url("/images/header-2.jpg");
+    background-image: url("/images/header-2.webp");
   }
   50% {
-    background-image: url("/images/header-4.jpg");
+    background-image: url("/images/header-4.webp");
   }
   75% {
-    background-image: url("/images/header-5.jpg");
+    background-image: url("/images/header-5.webp");
   }
   100% {
-    background-image: url("/images/header-1.jpg");
+    background-image: url("/images/header-1.webp");
   }
 }
 .primary-nav {

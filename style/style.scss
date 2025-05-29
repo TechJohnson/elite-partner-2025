@@ -59,7 +59,7 @@ $font-body: "Lato", sans-serif;
 }
 
 .slider {
-    background-image: url('/images/header-1.jpg');
+    background-image: url('/images/header-1.webp');
     background-color: $blue;
     background-size: cover;
     background-position: top left;
@@ -67,11 +67,11 @@ $font-body: "Lato", sans-serif;
 }
 
 @keyframes slide {
-    // 0%{background-image: url('/images/header-1.jpg');}
-    25%{background-image: url('/images/header-2.jpg');}
-    50%{background-image: url('/images/header-4.jpg');}
-    75%{background-image: url('/images/header-5.jpg');}
-    100%{background-image: url('/images/header-1.jpg');}
+    // 0%{background-image: url('/images/header-1.webp');}
+    25%{background-image: url('/images/header-2.webp');}
+    50%{background-image: url('/images/header-4.webp');}
+    75%{background-image: url('/images/header-5.webp');}
+    100%{background-image: url('/images/header-1.webp');}
 }
 
 
