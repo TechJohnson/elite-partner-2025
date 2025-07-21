@@ -192,7 +192,7 @@ body h3 {
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 #navbar .main-btn a:hover {
-  background: #195841;
+  background: rgb(25, 87.5, 65.4761904762);
 }
 
 header {
@@ -225,7 +225,7 @@ header .main-nav .main-btn a {
   box-shadow: 0px 3px 6px rgba(0, 0, 0, 0.16);
 }
 header .main-nav .main-btn a:hover {
-  background: #195841;
+  background: rgb(25, 87.5, 65.4761904762);
 }
 header .showcase-content {
   padding: 100px 0 150px 0;
@@ -257,7 +257,7 @@ header .showcase-content a {
   padding: 20px 100px;
 }
 header .showcase-content a:hover {
-  background: #195841;
+  background: rgb(25, 87.5, 65.4761904762);
 }
 header .showcase-content .showcase-border {
   border-left: 5px solid #ffffff;
@@ -279,7 +279,7 @@ header .showcase-content .showcase-border ul {
   margin: 0;
 }
 .main-content .congratulations {
-  max-width: 700px;
+  max-width: 800px;
   padding-bottom: 100px;
   margin: 0 auto;
 }
@@ -320,7 +320,7 @@ header .showcase-content .showcase-border ul {
 }
 .main-content .trip-inclusions .trip-content ul {
   font-size: 20px;
-  padding: 30px 0 0 55px;
+  padding: 0 0 0 55px;
   margin: 0;
 }
 .main-content .trip-inclusions .trip-content ul li {
